@@ -13,9 +13,10 @@ body{
 }
 .foto{
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 2px solid white;
+  margin-bottom: 17px;
 }
 .container-textos{
   display: flex;
@@ -45,12 +46,14 @@ body{
   justify-content: center;
 }
 .container-links a{
+  text-align: center;
   margin-top: 14px;
   text-decoration: none;
   color: white;
   background-color: #529b43;
   padding: 15px;
   border-radius: 50px;
+  min-width:20em;
 }
 .container-links a:hover{
   background-color: #619657 ;
